@@ -3,6 +3,8 @@
 An implementation of the RC5-16/8/12 symmetric block cipher written in AVR assembly for the ATmega32 microcontroller. The cipher operates on 16-bit word pairs, uses an 8-round Feistel-like structure, and derives its key schedule from a 12-byte secret key.
 
 ---
+<img width="1920" height="1080" alt="Screenshot (2193)" src="https://github.com/user-attachments/assets/bd121b7a-5626-4bd0-a21a-fec7305eb458" />
+---
 
 ## Table of Contents
 
@@ -63,6 +65,8 @@ The cipher takes a 32-bit plaintext block (two 16-bit words, A and B) and a 12-b
 |----------|----------|--------------------------------------|
 | `K_data` | Flash    | 12-byte secret key stored as `.db`   |
 
+---
+<img width="1600" height="900" alt="WhatsApp Image 2026-04-29 at 11 07 42 AM" src="https://github.com/user-attachments/assets/e8e01311-da75-4970-ae54-956e90509ed8" />
 ---
 
 ## Project Structure
